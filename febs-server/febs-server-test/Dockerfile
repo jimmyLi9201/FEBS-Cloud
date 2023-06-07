@@ -1,5 +1,5 @@
 FROM openjdk:8u212-jre
-MAINTAINER MrBird 852252810@qq.com
+MAINTAINER MrJimmy tomli920101@gmail.com
 
 COPY ./target/febs-server-test-2.2-RELEASE.jar /febs/febs-server-test-2.2-RELEASE.jar
 ADD agent/ /agent
