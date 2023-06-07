@@ -4,13 +4,13 @@ spring:
   cloud:
     nacos:
       config:
-        server-addr: ${nacos.url}:8001
+        server-addr: ${nacos.url}:8848
         group: DEFAULT_GROUP
         prefix: febs-server-system
         file-extension: yaml
         refreshable-dataids:
       discovery:
-        server-addr: ${nacos.url}:8001
+        server-addr: ${nacos.url}:8848
 
 logging:
   level:

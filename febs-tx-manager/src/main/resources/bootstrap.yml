@@ -4,7 +4,7 @@ spring:
   cloud:
     nacos:
       config:
-        server-addr: ${nacos.url}:8001
+        server-addr: ${nacos.url}:8848
         group: DEFAULT_GROUP
         prefix: febs-tx-manager
         file-extension: yaml
